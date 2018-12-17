@@ -15,4 +15,13 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="LINQ to SQL\**" />
+    <Compile Remove="LINQ to XML\**" />
+    <EmbeddedResource Remove="LINQ to SQL\**" />
+    <EmbeddedResource Remove="LINQ to XML\**" />
+    <None Remove="LINQ to SQL\**" />
+    <None Remove="LINQ to XML\**" />
+  </ItemGroup>
+
 </Project>
